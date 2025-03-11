@@ -4,9 +4,9 @@
     --heading-color: #333;
     --background-color: #f5f5f5;
     --inner-background-color: #f5f5f5;
-    --border-color: #ccc;
-    --link-color: #990003;
-    --accent-color: #666;
+    --border-color: #b19326;
+    --link-color: #994d00;
+    --accent-color: #795435;
     --accent-hover-color: #222;
     --green-button-color: #408814;
     --green-button-hover-color: #266400;
@@ -341,4 +341,44 @@ a#pdf:hover {
         text-align: left;
         margin-top: 0.5em;
     }
+}
+
+/* Thêm vào cuối file style.css */
+.contact-form .field {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Đảm bảo padding không làm rộng khung */
+    font-family: Georgia, serif; /* Đồng nhất font chữ */
+}
+
+.contact-form textarea {
+    resize: vertical; /* Cho phép kéo dọc textarea */
+}
+
+.contact-form button {
+    background-color: #caa70e; /* Màu xanh lá cây */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #a08c45;
 }
